@@ -45,11 +45,7 @@ font-family: 'Roboto', sans-serif;}
     border: 2px solid var(--gray-custom);
 }
 
- * {
-     font-family: 'Roboto', sans-serif;
-  }
-
-  .fa-solid {
+  .icon-custom {
     color: var(--blue-custom);
     font-size: 40px;
     padding-right: 15px;
@@ -62,4 +58,7 @@ font-family: 'Roboto', sans-serif;}
   .section{
     display: flex;
     justify-content: center;
+}
+.margin-top-custom{
+    margin-top: 70px;
 }
