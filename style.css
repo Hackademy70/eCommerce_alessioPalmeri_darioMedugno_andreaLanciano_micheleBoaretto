@@ -11,6 +11,8 @@
 
   .fa-solid {
     color: var(--blue-custom);
+    font-size: 40px;
+    padding-right: 15px;
   }
 
   .title {
