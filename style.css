@@ -4,6 +4,30 @@
     --gray-custom: #9d9d9d;
 }
 
+ * {
+font-family: 'Roboto', sans-serif;}
+/* CSS del Main */
+.bg-color-main{
+    background-color: var(--blue-custom);
+}
+.main-bg-img{
+    background-image: url(./media/img/main-bg.png);
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 15%;
+}
+.btn-my-color{
+    background-color: var(--gray-custom);
+    color: var(--white-custom);
+    border: 2px solid var(--blue-custom);
+}
+.btn-my-color:hover{
+    background-color: transparent;
+    color: var(--white-custom);
+    border: 2px solid var(--gray-custom);
+}
 
  * {
      font-family: 'Roboto', sans-serif;
