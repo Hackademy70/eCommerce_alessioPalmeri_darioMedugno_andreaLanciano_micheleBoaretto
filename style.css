@@ -7,6 +7,10 @@
  * {
 font-family: 'Roboto', sans-serif;}
 
+.nav-color {
+    background-color: var(--white-custom);
+}
+
 .bg-custom{
     background-color: var(--white-custom);
 }
@@ -39,4 +43,23 @@ font-family: 'Roboto', sans-serif;}
     background-color: transparent;
     color: var(--white-custom);
     border: 2px solid var(--gray-custom);
+}
+
+ * {
+     font-family: 'Roboto', sans-serif;
+  }
+
+  .fa-solid {
+    color: var(--blue-custom);
+    font-size: 40px;
+    padding-right: 15px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .section{
+    display: flex;
+    justify-content: center;
 }
