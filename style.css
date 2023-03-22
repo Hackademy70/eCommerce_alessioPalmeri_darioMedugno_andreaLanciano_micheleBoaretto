@@ -21,6 +21,10 @@ font-family: 'Roboto', sans-serif;}
 .sizeBar{
     width: 100px;
 }
+/* seconda nav bar */
+.nav-custom{
+    height: 50px !important;
+}
 
 /* CSS del Main */
 .bg-color-main{
@@ -32,7 +36,7 @@ font-family: 'Roboto', sans-serif;}
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .btn-my-color{
     background-color: var(--gray-custom);
@@ -61,4 +65,38 @@ font-family: 'Roboto', sans-serif;}
 }
 .margin-top-custom{
     margin-top: 70px;
+}
+ /* sezione numeri incrementali */
+ .margin-bottom-custom{
+    margin-bottom: 70px;
+ }
+/* sezione articoli genere */
+.women{
+    background-image: linear-gradient(rgba(85, 85, 85, 0.075), rgba(57, 56, 56, 0.837)) , url('./media/woman-gf3ff01814_1280.jpg');
+    height: 500px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.margin-top-custom-card{
+    margin-top: 110%;
+    color: var(--white-custom);
+}
+.men{
+    background-image: linear-gradient(rgba(85, 85, 85, 0.075), rgba(57, 56, 56, 0.837)) , url('./media/man-g520357148_1280.jpg');
+    height: 500px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.children{  
+        background-image: linear-gradient(rgba(85, 85, 85, 0.075), rgba(57, 56, 56, 0.837)) , url('./media/child-g60ee8eb13_1920.jpg');
+        height: 500px;
+        width: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.card-size-custom{
+    border-radius: 15px;
 }
