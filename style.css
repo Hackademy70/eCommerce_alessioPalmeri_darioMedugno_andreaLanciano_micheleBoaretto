@@ -100,3 +100,36 @@ font-family: 'Roboto', sans-serif;}
 .card-size-custom{
     border-radius: 15px;
 }
+
+
+
+/* CSS FOOTER INIZIO */
+.my-nav-link{
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+    padding: 12px 0;
+}
+.my-list{
+    padding-left: 0 !important;
+}
+.lt-container{
+    background-image: url(./media/img/main-bg.png);
+    height: 80px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bg-color-footer{
+    width: 200px;
+    height: 100px;
+    background-color: var(--blue-custom);
+}
+.icon-color {
+    color: var(--blue-custom);
+  }
+.btn-custom{
+    background-color: var(--blue-custom);
+    color: var(--white-custom);
+}
+/* CSS FOOTER FINE */
