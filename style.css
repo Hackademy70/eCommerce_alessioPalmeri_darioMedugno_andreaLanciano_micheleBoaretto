@@ -1,7 +1,7 @@
 :root{
     --white-custom: #fff;
     --blue-custom: #8a38fd;
-    --gray-custom: #9d9d9d;
+    --gray-custom: #b4b4b4;
 }
 
  * {
@@ -99,4 +99,23 @@ font-family: 'Roboto', sans-serif;}
 }
 .card-size-custom{
     border-radius: 15px;
+}
+/* sezione BIG SALES */
+.img-size-custom{
+    height: 400px;
+    width: 600px;
+}
+.text-custom{
+    color: var(--blue-custom);
+}
+.margin-top-custom-sales{
+    margin-top: 50px;
+}
+.paragraf-color{
+    color: var(--gray-custom);
+}
+.btn-sales{
+    background-color: var(--blue-custom);
+    color: var(--white-custom);
+    padding: 10px 20px;
 }
