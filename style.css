@@ -66,10 +66,9 @@ font-family: 'Roboto', sans-serif;}
 
 
 .cards {
-width: 200px;
-height: 300px;
+width: 300px;
+height: 400px;
 background-color: #ffffff;
-border-radius: 20px;
 display: flex;
 flex-direction: column;
 align-items: center; 
@@ -77,8 +76,8 @@ justify-content: center;
 }
 
 .bg-cards {
-    height: 50vh;
-    background-color: #9d9d9d; 
+    height: 75vh;
+    background-color: #f3f0f0; 
 } 
 
 .custom-height {
@@ -86,24 +85,40 @@ justify-content: center;
 }
 
 /* Swiper JS */
+
 .swiper {
     width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-  }
+    margin-top: 20px;
+    
+}
 
   .swiper-slide {
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 300px;
-  }
+}
 
   .swiper-slide img {
     display: block;
-    width: 100%;
-  }
+    width: 50%;
+}
 
+.title-slide{
+    font-size: 20px;
+    color:var(--blue-custom)
+}
+
+.price {
+    color: var(--blue-custom);
+}
+
+
+.swiper-wrapper {
+    height: 300px;
+}
 .margin-top-custom{
     margin-top: 70px;
 }
@@ -143,8 +158,6 @@ justify-content: center;
 }
 
 
-
-
 /* sezione BIG SALES */
 .img-size-custom{
     height: 400px;
@@ -152,7 +165,9 @@ justify-content: center;
 }
 .text-custom{
     color: var(--blue-custom);
+   
 }
+
 .margin-top-custom-sales{
     margin-top: 50px;
 }
