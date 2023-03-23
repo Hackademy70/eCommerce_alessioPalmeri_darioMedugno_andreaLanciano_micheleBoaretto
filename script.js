@@ -36,7 +36,10 @@ let observer = new IntersectionObserver((entries) => {
 })  
 
 observer.observe(number1);
-  const swiper = new Swiper(".mySwiper", {
+  
+
+
+const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
@@ -46,7 +49,7 @@ observer.observe(number1);
       stretch: 0,
       depth: 100,
       modifier: 1,
-      slideShadows: true,
+      slideShadows: false,
     },
     pagination: {
       el: ".swiper-pagination",
