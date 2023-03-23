@@ -78,7 +78,7 @@ justify-content: center;
 
 .bg-cards {
     height: 50vh;
-    background-color: #9d9d9d; 
+    background-color:var(--white-custom); 
 } 
 
 .custom-height {
@@ -166,7 +166,7 @@ justify-content: center;
 }
 
 
-/* CSS FOOTER INIZIO */
+/* CSS FOOTER INIZIO */ 
 .my-nav-link{
     margin-top: 10px;
     text-decoration: none;
