@@ -35,9 +35,10 @@ let observer = new IntersectionObserver((entries) => {
     })
 })  
 
-observer.observe(number1);
+
   
 
+observer.observe(number1);
 
 const swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
