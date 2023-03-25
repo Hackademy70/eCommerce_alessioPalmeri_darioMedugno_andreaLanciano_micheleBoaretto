@@ -76,9 +76,8 @@ justify-content: center;
 }
 
 .bg-cards {
-    height: 75vh;
+    height: 100%;
     background-color: #f3f0f0; 
-    height: 50vh;
     background-color:var(--white-custom); 
 } 
 
@@ -88,27 +87,29 @@ justify-content: center;
 
 /* Swiper JS */
 
-.swiper-wrapper
-
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 20px;
+.swiper{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgb(238, 235, 235);
 }
 
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
+.swiper-slide {
     width: 300px;
     height: 300px;
 }
 
 .swiper-slide img {
     display: block;
-    width: 300px;
-    height: 350px;
-    border: 1px solid grey;
+    width: 80%;
+    height: 250px;
+    background-position:center;
+    background-size: cover;
+}
+
+
+h4 {
+    color: var(--blue-custom);
 }
 
 
@@ -119,12 +120,9 @@ justify-content: center;
 
 .price {
     color: var(--blue-custom);
+    
 }
 
-
-.swiper-wrapper {
-    height: 300px;
-}
 .margin-top-custom{
     margin-top: 70px;
 }
@@ -153,11 +151,11 @@ justify-content: center;
     background-repeat: no-repeat;
 }
 .children{  
-        background-image: linear-gradient(rgba(85, 85, 85, 0.075), rgba(57, 56, 56, 0.837)) , url('./media/child-g60ee8eb13_1920.jpg');
-        height: 500px;
-        width: 350px;
-        background-size: cover;
-        background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(85, 85, 85, 0.075), rgba(57, 56, 56, 0.837)) , url('./media/child-g60ee8eb13_1920.jpg');
+    height: 500px;
+    width: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .card-size-custom{
     border-radius: 15px;
@@ -165,8 +163,16 @@ justify-content: center;
 
 
 /* sezione BIG SALES */
+
+
+
+.big-sale{
+    padding-top: 50px;
+}
+
+
 .img-size-custom{
-    height: 400px;
+   height: 400px;
     width: 600px;
 }
 .text-custom{
@@ -177,9 +183,13 @@ justify-content: center;
 .margin-top-custom-sales{
     margin-top: 50px;
 }
+
+
 .paragraf-color{
     color: var(--gray-custom);
 }
+
+
 .btn-sales{
     background-color: var(--blue-custom);
     color: var(--white-custom);
