@@ -28,7 +28,7 @@ fetch('./articoli.json').then((response)=> response.json() ).then((data)=>{
 
 
 
-    
+
 
     //qui cominciano le card
 
@@ -46,8 +46,8 @@ fetch('./articoli.json').then((response)=> response.json() ).then((data)=>{
                 div.innerHTML = 
                 `
                 <div class="card-body d-flex flex-wrap flex-column align-items-center justify-content-between">
-                <h5 class="card-title">${annuncio.name}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">${annuncio.surname}</h6>
+                <h5 class="card-title">${annuncio.gender}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">${annuncio.price}</h6>
                 <img src="${annuncio.url}" class="card-img" alt="...">
                 </div>
                 `;
@@ -61,7 +61,7 @@ fetch('./articoli.json').then((response)=> response.json() ).then((data)=>{
     let wordInput = document.querySelector('#wordInput');
 
     function filterByWord(parola){
-        let filtered = data.filter( (element) => element.name.toLowerCase().includes(parola.toLowerCase()) );
+        let filtered = data.filter( (element) => element.gender.toLowerCase().includes(parola.toLowerCase()) );
         showCard(filtered);
     }
 
