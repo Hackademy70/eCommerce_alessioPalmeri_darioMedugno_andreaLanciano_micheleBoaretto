@@ -198,6 +198,13 @@ h4 {
     padding: 10px 20px;
 }
 
+ /* adattiamo l'immagine ed il testo quando si ridimensiona la pagina */
+.big-sale .img-size-custom {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
 
 /* CSS FOOTER INIZIO */ 
 .my-nav-link{
@@ -229,3 +236,17 @@ h4 {
     color: var(--white-custom);
 }
 /* CSS FOOTER FINE */
+
+
+/* dispositivi piccoli */
+
+@media (max-width: 576px) { 
+    .big-sale .col-12.col-md-6 {
+      display: flex; 
+      flex-direction: column;
+    }
+    .big-sale .img-size-custom {
+      max-width: 100%; 
+      height: auto; 
+  }
+}
