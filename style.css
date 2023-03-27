@@ -25,6 +25,9 @@ font-family: 'Roboto', sans-serif;}
 .nav-custom{
     height: 50px !important;
 }
+.padding-link{
+    padding: 0px;
+}
 
 /* CSS del Main */
 .bg-color-main{
@@ -91,7 +94,7 @@ justify-content: center;
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  background: rgb(238, 235, 235);
+  background: var(--white-custom);
 }
 
 .swiper-slide {
@@ -161,7 +164,6 @@ h4 {
     border-radius: 15px;
 }
 
-
 /* sezione BIG SALES */
 
 
@@ -212,7 +214,7 @@ h4 {
     height: 80px;
     background-position: left;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
 }
 .bg-color-footer{
     width: 200px;
