@@ -26,7 +26,7 @@ font-family: 'Roboto', sans-serif;}
     height: 50px !important;
 }
 .padding-link{
-    padding: 0px;
+    padding: px;
 }
 
 /* CSS del Main */
@@ -174,9 +174,11 @@ h4 {
 
 
 .img-size-custom{
-   height: 400px;
+    height: 400px;
     width: 600px;
+    background-size: contain;
 }
+
 .text-custom{
     color: var(--blue-custom);
    
